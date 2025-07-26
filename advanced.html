@@ -5,7 +5,6 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
     </head>
     <body>
-
         <!-- Nav Bar -->
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
@@ -19,48 +18,47 @@
                 </div>
             </div>
         </nav>
-
         <!-- Form -->
         <div class="container-sm position-absolute top-50 start-50 translate-middle">
             <form action="https://www.google.com/search">
-                <div class="row">
+                <div class="row m-2">
                     <div class="col-3">
-                        <label for="colFormLabel" class="col-form-label-sm w-100 flex-row-reverse">all these words</label>
+                        <label for="colFormLabel" class="col-form-label w-100">all these words</label>
                     </div>
                     <div class="col-9">
-                        <input type="text" name="as_q" class="w-100 flex-row-reverse"> 
+                        <input type="text" name="as_q" class="form-control w-100"> 
                     </div>
                 </div>
-                <div class="row">
+                <div class="row m-2">
                     <div class="col-3">
-                        <label for="colFormLabel" class="col-form-label-sm w-100 flex-row-reverse">this exact word or phrase</label>
+                        <label for="colFormLabel" class="col-form-label w-100 ">this exact word or phrase</label>
                     </div>
                     <div class="col-9">
-                        <input type="text" name="as_epq" class="w-100 flex-row-reverse"> 
+                        <input type="text" name="as_epq" class="form-control w-100"> 
                     </div>
                 </div>
-                <div class="row">
+                <div class="row m-2">
                     <div class="col-3">
-                        <label for="colFormLabel" class="col-form-label-sm w-100 flex-row-reverse">any of these words</label>
+                        <label for="colFormLabel" class="col-form-label w-100">any of these words</label>
                     </div>
                     <div class="col-9">
-                        <input type="text" name="as_oq" class="w-100 flex-row-reverse"> 
+                        <input type="text" name="as_oq" class="form-control w-100"> 
                     </div>
                 </div>
-                <div class="row">
+                <div class="row m-2">
                     <div class="col-3">
-                        <label for="colFormLabel" class="col-form-label-sm w-100 flex-row-reverse">none of these words</label>
+                        <label for="colFormLabel" class="col-form-label w-100">none of these words</label>
                     </div>
                     <div class="col-9">
-                        <input type="text" name="as_eq" class="w-100 flex-row-reverse"> 
+                        <input type="text" name="as_eq" class="form-control w-100">
                     </div>
                 </div>
-                <div class="row">
+                <div class="row my-2 w-100 flex-row-reverse">
                     <div class="col-3">
-                        <input type="submit" value="Google Advanced Search" class="mx-auto">
+                        <input type="submit" value="Google Advanced Search" class="btn btn-primary mx-auto">
                     </div>
                 </div>
             </form>
-        </div>
+        </div>  
     </body>
 </html>
