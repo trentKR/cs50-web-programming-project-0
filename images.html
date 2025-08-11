@@ -3,6 +3,7 @@
     <head>
         <title>Image Search</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
         <!-- Nav Bar -->
@@ -21,13 +22,11 @@
         <!-- Form -->
         <div class="container-sm position-absolute top-50 start-50 translate-middle">
             <form action="https://www.google.com/search">
-                <div class="row">
-                    <div class="col-9">
-                        <input type="text" name="q" class="form-control w-100 flex-row-reverse">
+                <div class="d-flex">
+                    <div class="input-group mb-3 d-flex">
+                        <input type="text" name="q" class="form-control flex-grow-1">
                         <input type="hidden" name="udm" value="2">
-                    </div>
-                    <div class="col-3">
-                        <input type="submit" value="Google Image Search" class="btn btn-primary w-100 flex-row-reverse">
+                        <input type="submit" value="Image Search" class="btn btn-outline-secondary">
                     </div>
                 </div>
             </form>
